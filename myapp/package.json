@@ -1,0 +1,13 @@
+{
+    "name": "mica",
+    "version": "0.0.1",
+    "description": "a simple application",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron .",
+      "package": "electron-packager ./ myapp --win --out ../output --arch=x64 --app-version=0.0.1 --electron-version=1.4.13"
+    },
+    "author": "mica",
+    "license": "ISC"
+  }
